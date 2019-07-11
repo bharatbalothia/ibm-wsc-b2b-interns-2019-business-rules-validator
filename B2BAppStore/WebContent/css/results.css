@@ -1,0 +1,107 @@
+@media screen and (max-width: 1800 px) and (min-width: 100px) {
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: left;
+  color: #000040;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font: sans-serif;
+}
+
+.topnav img{
+	width: 85px;
+	float: left;
+}
+
+.logout{
+	float:right;
+}
+
+
+.topnav a:hover {
+  background-color: #0c65a5;
+  color: #ffffff;
+}
+
+
+.topnav b{
+	  float: right;
+  color: #000040;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font: sans-serif;
+}
+
+
+/*Instructions*/
+.instruction p{
+  position:absolute;
+  background-color: lightgrey;
+  left:2px;
+  top:140px;
+  width: 300px;
+  border: 5px solid #26116f;
+  padding: 25px;
+  margin: 25px;
+}
+
+
+/* Rule Set */
+
+.ruleset{
+	position: absolute;
+	left:600px;
+	top:150px;
+    text-align:center;
+    font-size: 20px;
+    font: italic;	
+}
+
+.fileupload p{
+	position: absolute;
+	left:580px;
+	top:200px;
+    text-align:center;
+    font-size: 20px;
+}
+   
+.uploader input{
+	position: absolute;
+	left:700px;
+	top:240px;
+	font-size: 15px;
+}	
+ /* validate button*/
+ 
+ .validate-button input{
+
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+position: absolute;
+left:700px;
+top:300px;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+
+}
+
+
+
